@@ -4,6 +4,7 @@ public class Smartphone implements Mp3player{
 	//クラスにインターフェイスを実装するにはimplementsを指定する。
 	//またMp3playerで作ったルール（メソッド）は必ずsmartphoneクラスで
 	//上書きし、処理内容を記述する必要がある。
+	//implementsの後ろにインターフェイスは複数追加できる。
 	public void play() {
 		System.out.println("再生");
 	}

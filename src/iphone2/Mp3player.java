@@ -2,6 +2,7 @@ package iphone2;
 
 public interface Mp3player {
 	//これからルール作りますよという宣言。
+	//継承と組み合わせることができる。
 	public abstract void play();
 	public abstract void stop();
 	public abstract void next();
